@@ -1,6 +1,8 @@
 nav {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+
     
     ul {
         display: flex;
