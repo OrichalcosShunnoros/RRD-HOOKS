@@ -14,7 +14,7 @@ export const NameInput = () => {
 
   return (
     <section>
-      <article>
+      <article className='contn'>
       <Greeting name={name} />
       <input
         type="text"
