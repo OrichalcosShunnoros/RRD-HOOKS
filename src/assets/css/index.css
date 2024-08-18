@@ -1,0 +1,22 @@
+* {
+    font-family: system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background: #1e1e1e;
+    
+    section {
+        height: 85vh;
+        width: 100%;
+        background: #333;
+        margin-top: 1rem;
+        border-radius: 10px;
+        article {
+            box-shadow: 0 10px 20px 2px #000;
+            background: #a1a1a1;
+            width: 50%;
+            border-radius: 10px;
+        }
+    }
+}
+

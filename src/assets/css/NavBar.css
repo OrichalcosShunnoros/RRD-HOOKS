@@ -1,0 +1,33 @@
+nav {
+    display: flex;
+    align-items: center;
+    
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        a {
+            font-size: 1.3rem;
+            margin: .5rem;
+            text-decoration: none;
+            color: #777;            
+            transition: 
+                transform 0.25s ease-in,
+                opacity 0.25s ease-in,
+                filter 0.25s ease-in;
+        }
+
+        a.is-active {
+            font-weight: bold;
+            pointer-events: none;
+            color: #5c8aa9;
+        }
+
+    }
+    ul:has(a:hover) a:not(:hover):not(.is-active) {
+        opacity: 0.8;
+        filter: blur(4px);
+    }
+    
+}

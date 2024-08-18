@@ -1,0 +1,53 @@
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20rem;
+    background: #1e1e1e;
+    align-items: center;
+    border-radius: .5rem;
+    justify-content: center;
+    
+    
+    input {
+        justify-self: flex-start;
+        margin: .2rem;
+        width: 50%;
+        background: #504f4f;
+        outline: none;
+        border: none;
+        border-radius: .2rem;
+        color: #1a1a1a;
+        height: 2rem;
+    }
+    input::placeholder {
+        color: #333;
+    }
+
+    button {
+        background: #504f4f;
+        border: none;
+        color: #333;
+        width: max-content;
+        height: max-content;
+        /* height: 1.7rem; */
+        border-radius: 10px;
+        transition: .2s all ease-out;
+        cursor: pointer;
+        margin-top: .5rem;
+
+    }
+    button:hover {
+        width: 9rem;
+        height: 3rem;
+        font-size: xx-large;
+        color: #528ade;
+        background: #262626;
+    }
+}

@@ -1,0 +1,12 @@
+
+.btnClr {
+    background: #555;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 10px 20px 5px #000;
+    display: flex;
+    align-self: self-start;
+    margin-top: 1rem;
+    width: 20%;
+    padding: 1%;
+}
