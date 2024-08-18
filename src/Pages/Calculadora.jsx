@@ -52,10 +52,12 @@ export const Calculadora = ({ titulo }) => {
             value={val.n2}
             onChange={handleChange}
         />
-        <button onClick={() => calculateResult('sumar')}>Addition</button>
-        <button onClick={() => calculateResult('restar')}>subtract</button>
-        <button onClick={() => calculateResult('multiplicar')}>Multiply</button>
-        <button onClick={() => calculateResult('dividir')}>Division</button>
+        <div className='btns'>
+          <button onClick={() => calculateResult('sumar')}>Addition</button>
+          <button onClick={() => calculateResult('restar')}>subtract</button>
+          <button onClick={() => calculateResult('multiplicar')}>Multiply</button>
+          <button onClick={() => calculateResult('dividir')}>Division</button>
+        </div>
       </article>
     </section>
   );

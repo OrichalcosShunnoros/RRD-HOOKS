@@ -1,9 +1,10 @@
-import { Route, Routes } from "react-router-dom";
-import { Contact } from "../Pages/Contact";
-import { Calculadora } from "../Pages/Calculadora";
-import { NameInput } from '../Pages/Start';
 import { BackgroundColorChanger } from "../Pages/BackgroundChanged";
+import { Calculadora } from "../Pages/Calculadora";
+import { Route, Routes } from "react-router-dom";
 import { TaskInput } from "../Pages/TaskList";
+import { Contact } from "../Pages/Contact";
+import { NameInput } from '../Pages/Start';
+import '../assets/css/index.css'
 
 export const Main = () => {
   return (

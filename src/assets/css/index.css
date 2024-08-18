@@ -4,17 +4,20 @@
 
 body {
     background: #1e1e1e;
+    flex-wrap: wrap;
     
     section {
+        flex-wrap: wrap;
         height: 85vh;
         width: 100%;
         background: #333;
         margin-top: 1rem;
         border-radius: 10px;
         article {
+            flex-wrap: wrap;
             box-shadow: 0 10px 20px 2px #000;
             background: #a1a1a1;
-            width: 50%;
+            width: 70%;
             border-radius: 10px;
         }
     }

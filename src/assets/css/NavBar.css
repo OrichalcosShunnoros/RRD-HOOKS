@@ -6,10 +6,13 @@ nav {
     
     ul {
         display: flex;
+        flex-wrap: wrap;
         flex-direction: row;
         list-style: none;
 
-        a {
+        a {display: flex;
+            text-shadow: 2px 2px 10px #000;
+            flex-wrap: wrap;
             font-size: 1.3rem;
             margin: .5rem;
             text-decoration: none;
